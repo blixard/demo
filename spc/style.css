@@ -9,8 +9,10 @@ img{
 
 .page1 {
   height:100vh;
+  background-color: aqua;
 }
 
 .page2{
   height:100vh;
+  background-color:blueviolet;
 }
