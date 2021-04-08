@@ -1,8 +1,9 @@
 // gsap.to(".box", {x: 100, duration: 1});
 
 window.addEventListener("DOMContentLoaded", (e)=>{
-    animatePage1()
-    animate()
+    // animatePage1()
+    animatePage2()
+    // animate()
 })
 
 animate = ()=>{
@@ -49,5 +50,25 @@ animatePage1 = ()=>{
         duration:5,
         y:100,
         ease:"power4"
+    })
+}
+
+animatePage2 = ()=>{
+    var tl = gsap.timeline({
+        scrollTrigger:{
+            duration:2,
+            trigger:".page2",
+            markers:true,
+            start:"top",
+            end:"+=5000",
+            scrub:1,
+            pin: true,
+        },
+    })
+    tl.from(".orange",{
+        xPercent:-100
+    })
+    tl.from(".blue",{
+        xPercent:100
     })
 }

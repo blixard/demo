@@ -21,3 +21,21 @@ img{
   height:100vh;
   background-color:#E8B4B8;
 }
+
+.orange{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background-color: orange;
+}
+
+.blue{
+  position: absolute;
+  width: 100%;
+  height:100%;
+  background-color: blueviolet;
+}
+
+.page3{
+  height:100vh;
+}
