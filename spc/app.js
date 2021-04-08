@@ -35,9 +35,10 @@ animate2 = ()=>{
             duration:2,
             trigger:".page1",
             markers:true,
-            start:"top 0%",
-            end:"top 30%",
+            start:"center",
+            end:"bottom",
             scrub:1,
+            pin:true
         },
     })
     tl.to(".page1",{
@@ -45,14 +46,12 @@ animate2 = ()=>{
         duration:3,
         // ease:"power4"
     })
-    // tl.to(".page1",{
-    //     background:"black",
-    //     duration:1,
-    //     ease:"elastic"
-    // })
     tl.to(".page1",{
         duration:5,
         y:100,
         ease:"power4"
+    })
+    tl.to(".page2",{
+        rotation:30
     })
 }

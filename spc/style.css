@@ -9,10 +9,15 @@ img{
 
 .page1 {
   height:100vh;
-  background-color: aqua;
+  background-color: #E8B4B8;
+}
+
+.page1 h1{
+  text-align: center;
+  color:#67595E;
 }
 
 .page2{
   height:100vh;
-  background-color:blueviolet;
+  background-color:#E8B4B8;
 }
