@@ -1,0 +1,60 @@
+@import url(fonts.css);
+
+/* css variables */
+@import url(./partials/variables.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* brand-image spc logo cropped heights png */
+.spcpng{
+}
+/**********
+navbar start */
+
+/* brand, spc logo */
+.header_area .menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+
+/* navbar */
+.header_area .menu .navbar{
+    padding : 1rem 3rem;
+}
+
+.header_area .menu .navbar .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight:500;
+    padding:1.7rem;
+    color: var(--black-color);
+}
+
+.header_area .menu .navbar-nav .active{
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .menu .navbar-nav a:hover{
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navcustom{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+
+
+
+/* navbar end 
+************/
