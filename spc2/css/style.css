@@ -65,13 +65,22 @@ navbar start */
 }
 .home-btn1{
     margin:0.5rem;
-    
 }
 .home-btn2{
     margin:0.5rem;
 }
 
+.home-btn1:hover{
+    color: var(--gradient-blue);
+    font-family: var(--roboto);
+}
+.home-btn2:hover{
+    color: var(--gradient-blue);
+    font-family: var(--roboto);
+}
+
 .main_area .home .home-title h3{
+    font-size:1rem;
     padding-top: 25%;
     font-weight:500;
 }
@@ -92,6 +101,11 @@ navbar start */
 
 .main_area .home .home-title h4{
     font-size: 1.5rem;
+}
+
+.main_area .home .home-img{
+    padding:7rem 0;
+    width:30rem;
 }
 
 /* home end */
