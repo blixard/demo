@@ -22,14 +22,13 @@ navbar start */
 
 /* navbar */
 .header_area .menu .navbar{
-    padding : 1rem 3rem;
+    padding : 1rem 5.2rem;
 }
 
 .header_area .menu .navbar .nav-item .nav-link{
-    font-family: var(--roboto);
+    font:normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    font-weight:500;
-    padding:1.7rem;
+    padding:2.0rem;
     color: var(--black-color);
 }
 
@@ -47,14 +46,52 @@ navbar start */
     background-clip: text;
 }
 
-.navcustom{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: auto;
+.navbtn:hover{
+    background-color: var(--gradient-blue);
 }
-
-
+.x{
+    background-color:aqua;
+    height:100vh;
+}
 
 
 /* navbar end 
 ************/
+
+/* home start */
+
+.home-btn-group{
+
+}
+.home-btn1{
+    margin:2rem;
+    
+}
+.home-btn2{
+    margin:2rem;
+}
+
+.main_area .home .home-title h3{
+    padding-top: 25%;
+    font-weight:500;
+}
+
+.main_area .home .home-title h3::after{
+    content:"";
+    height: 2px;
+    width:18vw;
+    background-color: black;
+    display:inline-block;
+    margin-left:5%;
+    transform: translateY(-10px);
+}
+
+.main_area .home .home-title h1{
+    font-size: 5rem;
+}
+
+.main_area .home .home-title h4{
+    font-size: 1.5rem;
+}
+
+/* home end */
