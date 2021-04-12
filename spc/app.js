@@ -95,6 +95,20 @@ animatePage2 = ()=>{
         yPercent:-200,
         xPercent:-400
     })
+    tl.from(".img9",{
+        xPercent:-100
+    })
+    tl.from(".img10",{
+        yPercent:-300,
+        xPercent:-200
+    })
+    tl.from(".img11",{
+        xPercent:-300
+    })
+    tl.from(".img12",{
+        yPercent:-300,
+        xPercent:-400
+    })
 }
 
 // animateT = ()=>{
