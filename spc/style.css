@@ -13,15 +13,22 @@ img{
   position:relative;
   padding:0.5px;
   width:25%;
+  opacity:0.8;
+}
+
+img:hover{
+  padding:0px;
+  margin:0px;
+  opacity:1;
 }
 
 .page1{
+  background:url('./img/spcpng.png');
   display:flex;
   flex-wrap:wrap;
 }
 
 .page2{
-  height:100vh;
 }
 
 .title{
