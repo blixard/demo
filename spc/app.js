@@ -57,18 +57,24 @@ animatePage2 = ()=>{
     var tl = gsap.timeline({
         scrollTrigger:{
             duration:2,
-            trigger:".page2",
+            trigger:".page1",
             markers:true,
             start:"top",
-            end:"+=5000",
+            end:"+=500",
             scrub:1,
             pin: true,
         },
     })
-    tl.from(".orange",{
+    tl.from(".img1",{
         xPercent:-100
     })
-    tl.from(".blue",{
+    tl.from(".img2",{
+        yPercent:100
+    })
+    tl.from(".img3",{
+        yPercent:-100
+    })
+    tl.from(".img4",{
         xPercent:100
     })
 }

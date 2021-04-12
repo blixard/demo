@@ -1,90 +1,30 @@
-/* .box{
-  width: 250px;
-  height: 250px;
-}
-
-img{
-  width: 100%;
-} */
-
-/* .page1 {
-  display: flex;
-  background: url("./black_wave.jpg") no-repeat center;
-  height: 100vh;
-  color: #fff;
-  min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.page1 h1{
-  text-align: center;
-  color:#67595E;
-}
-
-.page2{
-  height:100vh;
-  background-color:#E8B4B8;
-}
-
-.orange{
-  position: absolute;
-  width: 100%;
-  height:100%;
-  background-color: orange;
-}
-
-.blue{
-  position: absolute;
-  width: 100%;
-  height:100%;
-  background-color: blueviolet;
-}
-
-.page3{
-  height:100vh;
-} */
-
 *{
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   box-sizing: border-box;
-  text-decoration: none;
-  color: rgb(250, 206, 206);
-}
-html{
-  scroll-behavior: smooth;
 }
 
-section{
-  padding: 100px 0;
-}
-.page1 {
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  background: url("./cameradark.jpg") no-repeat center;
-  height: 100vh;
-  color: #fff;
-  min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
-  /* vertical-align:middle; */
-  font-family: 'Ubuntu', sans-serif;
+body{
+  margin:1px;
+  padding:1px;
 }
 
 img{
-  width: 20%;
+  position:relative;
+  padding:0.5px;
+  width:25%;
 }
 
-.camera{
-  position: absolute;
-  width:10%;
-  top:30%;
-  right:70%;
-
+.page1{
+  display:flex;
+  flex-wrap:wrap;
 }
 
-
-
+.title{
+  color: antiquewhite;
+  font-size: 50px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
