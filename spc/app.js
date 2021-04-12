@@ -60,21 +60,21 @@ animatePage2 = ()=>{
             trigger:".page1",
             markers:true,
             start:"top",
-            end:"+=500",
+            end:"+=1000",
             scrub:1,
             pin: true,
         },
     })
     tl.from(".img1",{
-        xPercent:-100
+        xPercent:-400
     })
     tl.from(".img2",{
-        yPercent:100
+        xPercent:-300
     })
     tl.from(".img3",{
-        yPercent:-100
+        xPercent:-200
     })
     tl.from(".img4",{
-        xPercent:100
+        xPercent:-100
     })
 }
