@@ -22,30 +22,24 @@ img:hover{
   opacity:1;
 }
 
+
+/* page 1 */
+
 .page1{
   background:url('./img/spcpng.png');
   display:flex;
   flex-wrap:wrap;
 }
 
-.page2{
-}
-
-.title{
-  color: antiquewhite;
-  font-size: 50px;
+.page1 .title{
   position:fixed;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
 }
 
-.title:hover{
-  color:bisque;
-  font-size:55px;
-}
 
-.btn{
+.page1 .btn{
   font-size: 50px;
   position:fixed;
   top:70%;
@@ -53,6 +47,44 @@ img:hover{
   transform:translate(-70%,-50%);
 }
 
+.page1 .title a{
+  text-decoration:none;
+  color: antiquewhite;
+  font-size: 50px;
+}
+
+.page1  .title a:hover{
+  color:bisque;
+  font-size:55px;
+}
+/* page 1 ended */
+
+/* page 2 */
+.page2{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.page2 .content{
+  position:fixed;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.page2 .content .head{
+  font-size: 50px;
+
+}
+
+.page2 .content .about {
+  font-size:30px;
+
+}
+
+
+/* responsive */
 
 @media(max-width:600px) {
   img{
