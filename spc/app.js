@@ -3,6 +3,8 @@
 window.addEventListener("DOMContentLoaded", (e)=>{
     // animatePage1()
     animatePage2()
+    // animateT();
+    console.log("hi")
     // animate()
 })
 
@@ -60,21 +62,72 @@ animatePage2 = ()=>{
             trigger:".page1",
             markers:true,
             start:"top",
-            end:"+=1000",
+            end:"+=2000",
             scrub:1,
             pin: true,
         },
     })
     tl.from(".img1",{
-        xPercent:-400
-    })
-    tl.from(".img2",{
-        xPercent:-300
-    })
-    tl.from(".img3",{
-        xPercent:-200
-    })
-    tl.from(".img4",{
         xPercent:-100
     })
+    tl.from(".img2",{
+        yPercent:-100,
+        xPercent:-200
+    })
+    tl.from(".img3",{
+        xPercent:-300
+    })
+    tl.from(".img4",{
+        yPercent:-100,
+        xPercent:-400
+    })
+    tl.from(".img5",{
+        xPercent:-100
+    })
+    tl.from(".img6",{
+        yPercent:-200,
+        xPercent:-200
+    })
+    tl.from(".img7",{
+        xPercent:-300
+    })
+    tl.from(".img8",{
+        yPercent:-200,
+        xPercent:-400
+    })
 }
+
+// animateT = ()=>{
+//     var tl = gsap.timeline()
+//     tl.from(".img1",{
+//         xPercent:-100
+//     })
+//     tl.from(".img2",{
+//         xPercent:-200
+//     })
+//     tl.from(".img3",{
+//         xPercent:-300
+//     })
+//     tl.from(".img4",{
+//         xPercent:-400
+//     })
+
+// }
+
+// function fun(){
+//         var tl = gsap.timeline()
+//         tl.from(".img1",{
+//             xPercent:-100
+//         })
+//         tl.from(".img2",{
+//             xPercent:-200
+//         })
+//         tl.from(".img3",{
+//             xPercent:-300
+//         })
+//         tl.from(".img4",{
+//             xPercent:-400
+//         })
+
+//         tl.reverse();
+// }
