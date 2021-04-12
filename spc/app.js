@@ -100,6 +100,9 @@ animatePage2 = ()=>{
             pin: true,
         },
     })
+    tl.from(".content",{
+        xPercent:-100
+    })
     tl.from(".p2img1",{
         xPercent:-100
     })
@@ -141,6 +144,12 @@ animatePage2 = ()=>{
     tl.from(".p2img12",{
         yPercent:-300,
         xPercent:-400
+    })
+    tl.to(".content",{
+        xPercent:-2500
+    })
+    tl.from(".content2",{
+        xPercent:-2500
     })
     
 
