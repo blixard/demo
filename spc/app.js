@@ -69,7 +69,7 @@ animatePage1 = ()=>{
     })
     tl.from(".bottom",{
         xPercent:-100
-    })
+    },"-=1")
 }
 
 animatePage2 = ()=>{
