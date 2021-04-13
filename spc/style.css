@@ -29,17 +29,17 @@ img:hover{
 .key{
   z-index: 2;
   position:fixed;
-  top:90%;
-  right:2%;
+  top:95%;
+  right:1%;
 }
 
 /* menu */
 .menu{
   position:fixed;
   z-index: 1;
-  top:40%;
+  top:90%;
   width:100%;
-  height:60vh;
+  height:10vh;
   background-color: yellow;
   left:-100%;
   transition:all .5s;
@@ -49,9 +49,8 @@ img:hover{
 
 
 .menu ul{
-  position:fixed;
-  /* float: right; */
-  /* margin-right: 20px; */
+  display:flex;
+  flex-wrap: wrap;
 }
 .menu ul li{
   display: block;
@@ -156,9 +155,16 @@ a:hover,a.active{
   }
 }
 
-@media(max-height:630px) {
+@media(max-width:424px) {
   .menu{
-    top:20%;
-    height:80vh;
+    top:85%;
+    height:15vh;
+  }
+}
+
+@media(max-width:370px) {
+  .menu{
+    top:70%;
+    height:30vh;
   }
 }
