@@ -95,12 +95,12 @@ animatePage2 = ()=>{
             trigger:".page2",
             markers:true,
             start:"top",
-            end:"+=2000",
+            end:"+=3000",
             scrub:1,
             pin: true,
         },
     })
-    tl.from(".content",{
+    tl.from("#p2content",{
         xPercent:-2100
     })
     tl.from(".p2img1",{
@@ -109,7 +109,7 @@ animatePage2 = ()=>{
     tl.from(".p2img2",{
         yPercent:-100,
         xPercent:-200
-    })
+    },"-=1")
     tl.from(".p2img3",{
         xPercent:-300
     })
@@ -117,9 +117,15 @@ animatePage2 = ()=>{
         yPercent:-100,
         xPercent:-400
     })
+    tl.to(".content",{
+        xPercent:-2200
+    })
+    tl.from(".content2",{
+        xPercent:-2500
+    })
     tl.from(".p2img5",{
         xPercent:-100
-    })
+    },"-=2")
     tl.from(".p2img6",{
         yPercent:-200,
         xPercent:-200
@@ -130,27 +136,22 @@ animatePage2 = ()=>{
     tl.from(".p2img8",{
         yPercent:-200,
         xPercent:-400
-    })
+    },"-=2")
     tl.from(".p2img9",{
         xPercent:-100
-    })
+    },"-=1.5")
     tl.from(".p2img10",{
         yPercent:-300,
         xPercent:-200
-    })
+    },"-=2")
     tl.from(".p2img11",{
         xPercent:-300
-    })
+    },"-=1")
     tl.from(".p2img12",{
         yPercent:-300,
         xPercent:-400
-    })
-    tl.to(".content",{
-        xPercent:-2200
-    })
-    tl.from(".content2",{
-        xPercent:-2500
-    })
+    },"-=1")
+
     
 
 }
