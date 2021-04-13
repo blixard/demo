@@ -22,20 +22,29 @@ img:hover{
   opacity:1;
 }
 
+
+
 /* nav */
 
 .key{
+  z-index: 2;
   position:fixed;
   top:90%;
   right:2%;
 }
 
-.key button{
-  width:75px;
-  border-radius: 50%;
-  font-size:50px;
-  color:white;
+/* menu */
+.menu{
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  height:100%;
+  background-color: yellow;
+  left:-100%;
 }
+/* menu end */
+/* nav end */
+
 
 /* page 1 */
 
@@ -63,9 +72,18 @@ img:hover{
 }
 
 .page1  .title a:hover{
-  color:bisque;
-  font-size:55px;
+  background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
+
+.page1 .bottom{
+  height: 100%;
+  width:100%;
+  background-color: aqua;
+}
+
 /* page 1 ended */
 
 /* page 2 */

@@ -4,39 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <link rel="stylesheet" href="style.css">
   <title>spc test</title>
 </head>
 <body>
 
+  
   <nav class="key">
-    <button>+</button>
+    <button onclick="fun()"> click me</button>
   </nav>
+  <div class="menu">
+    <ul class="list">
+      <li class="items" onclick="fun()"><a href="#">home</a></li>
+      <li class="items" onclick="fun()"><a href="#p2content">About</a></li>
+      <li class="items" onclick="fun()"><a href="#">home</a></li>
+      <li class="items" onclick="fun()"><a href="#">home</a></li>
+      <li class="items" onclick="fun()"><a href="#">home</a></li>
+    </ul>
+  </div>
   <div class="page1">
     <img src="./img/camerasmall.webp" alt="black_wave" class="img1">
     <img src="./img/camerasmall.webp" alt="black_wave" class="img2">
     <img src="./img/camerasmall.webp" alt="black_wave" class="img3">
     <img src="./img/camerasmall.webp" alt="black_wave" class="img4">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img1">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img2">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img3">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img4">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img1">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img2">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img3">
-    <img src="./img/camerasmall.webp" alt="black_wave" class="img4">
-    <div class="content" id="p1content">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img5">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img6">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img7">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img8">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img9">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img10">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img11">
+    <img src="./img/camerasmall.webp" alt="black_wave" class="img12">
+
+    <div class="bottom">
+      this is the bottom half
+    </div>
+
+    <div class="content top" id="p1content">
       <div class="title">
-        <a href="#">Soa photography club</a>
+        <a href="#">SPC</a>
       </div>
-      <Button class="btn" onclick="fun()">
-        go to
-      </Button>
     </div>
 
   </div>
 
-  <div class="page2">
+  <div class="page2" id="page2">
     <img src="./img/camerasmall.webp" alt="" class="p2img1">
     <img src="./img/camerasmall.webp" alt="" class="p2img2">
     <img src="./img/camerasmall.webp" alt="" class="p2img3">
@@ -45,10 +58,10 @@
 
     <div class="content" id="p2content">
       <div class="head">
-        About SPC
+        About
       </div>
       <div class="about">
-        SPC is a club of SOA
+        Who are we ?
       </div>
     </div>
 
