@@ -22,9 +22,15 @@ animatePage1 = ()=>{
             pin: true,
         },
     })
+    tl.from(".img1",{
+        xPercent:-100
+    })
     tl.from(".img2",{
         yPercent:-100,
         xPercent:-200
+    })
+    tl.from(".img3",{
+        xPercent:-300
     })
     tl.from(".img4",{
         yPercent:-100,
@@ -40,49 +46,33 @@ animatePage1 = ()=>{
     tl.from(".img7",{
         xPercent:-300
     })
-    tl.from(".mid",{
-        xPercent:-100
-    })
     tl.from(".img8",{
         yPercent:-100,
         xPercent:-400
     })
+    tl.from(".mid",{
+        xPercent:-100
+    })
     tl.from(".img9",{
         xPercent:-100
     })
-
+    tl.from(".img10",{
+        yPercent:-100,
+        xPercent:-200
+    })
     tl.from(".img11",{
         xPercent:-300
+    })
+    tl.from(".img12",{
+        yPercent:-100,
+        xPercent:-400
     })
     tl.from(".bottom",{
         xPercent:-100
     },"-=1")
 
 
-    // auto animate on scroll
-    var tl2 = gsap.timeline({
-        scrollTrigger:{
-            duration:2,
-            trigger:".page1",
-            markers:true,
-            start:"top",
-            end:"+=2000",
-        },
-    })
-    tl2.from(".img1",{
-        xPercent:-100
-    })
-    tl2.from(".img3",{
-        xPercent:-300
-    })
-    tl2.from(".img10",{
-        yPercent:-100,
-        xPercent:-200
-    })
-    tl2.from(".img12",{
-        yPercent:-100,
-        xPercent:-400
-    })
+    // auto animate on scro
 }
 
 animatePage2 = ()=>{
