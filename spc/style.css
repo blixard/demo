@@ -110,6 +110,7 @@ a:hover,a.active{
   height: 100%;
   width:100%;
   background-color: aqua;
+  background:url('./img/mountain.webp');
 }
 
 /* page 1 ended */
