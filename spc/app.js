@@ -14,53 +14,48 @@ window.addEventListener("DOMContentLoaded", (e)=>{
 animatePage1 = ()=>{
     var tl = gsap.timeline()
     tl.from(".img1",{
-        xPercent:-100
+        xPercent:-10
     })
     tl.from(".img2",{
-        opacity:0,
-        yPercent:-100,
-        xPercent:-200
+        yPercent:-10,
+        xPercent:-20
     })
     tl.from(".img3",{
-        opacity:0,
-        xPercent:-300
+        xPercent:-30
     })
     tl.from(".img4",{
-        yPercent:-250
+        yPercent:-25
     })
     tl.from(".img5",{
-        opacity:0
+        xPercent:30
     })
     tl.from(".img6",{
-        yPercent:-350
+        yPercent:-35
     })
     tl.from(".img7",{
-        xPercent:-300
+        xPercent:-30
     })
     tl.from(".img8",{
-        yPercent:-100,
-        xPercent:-400
+        yPercent:-10,
+        xPercent:-40
     })
     tl.from(".mid",{
-        xPercent:-100
+        xPercent:-10
     })
     tl.from(".img9",{
-        xPercent:-100
+        xPercent:-10
     })
     tl.from(".img10",{
-        yPercent:-100,
-        xPercent:-200
+        yPercent:-10,
+        xPercent:-20
     })
     tl.from(".img11",{
-        xPercent:-300
+        xPercent:-30
     })
     tl.from(".img12",{
-        yPercent:-100,
-        xPercent:-400
+        yPercent:-10,
+        xPercent:-40
     })
-    tl.from("#bottom1",{
-        opacity:0
-    },"-=1")
 }
 
 animatePage2 = ()=>{
