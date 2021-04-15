@@ -49,7 +49,7 @@ img:hover{
   width:100%;
   height:10vh;
   background:linear-gradient(90deg, rgba(23,23,23,1) 5%, rgba(166,167,109,1) 68%, rgba(198,176,29,1) 83%, rgba(241,177,26,1) 100%);
-  left:0%;
+  left:-100%;
   transition:all .5s;
 }
 
@@ -91,6 +91,7 @@ img:hover{
 .page1{
   margin: 2px;
   padding: 2px;
+  height: 100vh;
   display:flex;
   flex-wrap:wrap;
   background-color: black;
@@ -121,12 +122,17 @@ img:hover{
   width: 50%;
   top: 50%;
   left: 50%;
-  transform:translate(-50%,-50%);
+  transform:translate(-49%,-30%);
 }
 
 /* page 1 ended */
 
 /* page 2 */
+
+.page2{
+  background-color:black;
+  height: 100vh;
+}
 
 .page2 .head{
   display: flex;
