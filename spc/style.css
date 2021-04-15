@@ -95,7 +95,7 @@ a:hover,a.active{
 
 .page1 .title a{
   text-decoration:none;
-  color: antiquewhite;
+  color: black;
   font-size: 50px;
 }
 
@@ -116,20 +116,20 @@ a:hover,a.active{
 /* page 1 ended */
 
 /* page 2 */
-.page2{
+.page2 .head{
   display: flex;
   flex-wrap: wrap;
 
 }
 
-.page2 .content{
+.page2 .head .content{
   position:fixed;
-  top: 50%;
+  top: 20%;
   left:50%;
   transform:translate(-50%,-50%);
 }
 
-.page2 .content2{
+.page2 .head .content2{
   position:fixed;
   top: 50%;
   left:50%;
@@ -137,14 +137,29 @@ a:hover,a.active{
   background-color: yellow;
 }
 
-.page2 .content .head{
+.page2 .head .content .title{
   font-size: 50px;
 
 }
 
-.page2 .content .about {
+.page2 .head .content .about {
   font-size:30px;
+}
 
+.page2 .main{
+  /* background-color:cyan; */
+  margin: 40px;
+  padding: 40px;
+}
+
+.page2 .main .view{
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(1px);
+  background-color: rgba(255,255,255,.15);
+  backdrop-filter: blur(0px);
+}
+.page2 .main .view:hover{
+  filter: blur(0px);
 }
 
 
