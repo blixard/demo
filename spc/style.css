@@ -49,7 +49,7 @@ img:hover{
   width:100%;
   height:10vh;
   background-color: yellow;
-  left:0%;
+  left:%;
   transition:all .5s;
 }
 
@@ -83,6 +83,8 @@ a:hover,a.active{
 /* page 1 */
 
 .page1{
+  margin: 2px;
+  padding: 2px;
   display:flex;
   flex-wrap:wrap;
   background-color: black;
@@ -127,7 +129,7 @@ a:hover,a.active{
 }
 
 .page2 .head .content{
-  position:absolute;
+  position:fixed;
   top: 5%;
   left:50%;
   transform:translate(-50%,-50%);

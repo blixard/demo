@@ -70,6 +70,7 @@ animatePage2 = ()=>{
             trigger:".page2",
             markers:true,
             start:"top",
+            scrub:0.5,
             pin:true
         },
     })
