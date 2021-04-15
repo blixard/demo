@@ -56,6 +56,7 @@ animatePage1 = ()=>{
         yPercent:-10,
         xPercent:-40
     })
+
 }
 
 animatePage2 = ()=>{
@@ -65,12 +66,13 @@ animatePage2 = ()=>{
             trigger:".page2",
             markers:true,
             start:"top",
-            scrub:0.5,
+            end:"+=1000",
+            scrub:0.8,
             pin:true
         },
     })
     tl.from("#p2content",{
-        xPercent:-2100
+        opacity:0
     })
     tl.from(".p2img1",{
         xPercent:-100
@@ -80,7 +82,7 @@ animatePage2 = ()=>{
         xPercent:-200
     },"-=2")
     tl.from("#p2main",{
-        xPercent:-100
+        opacity:0
     })
     tl.from(".p2img3",{
         xPercent:-300

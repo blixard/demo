@@ -48,8 +48,8 @@ img:hover{
   top:90%;
   width:100%;
   height:10vh;
-  background-color: yellow;
-  left:%;
+  background:linear-gradient(90deg, rgba(23,23,23,1) 5%, rgba(166,167,109,1) 68%, rgba(198,176,29,1) 83%, rgba(241,177,26,1) 100%);
+  left:0%;
   transition:all .5s;
 }
 
@@ -64,19 +64,25 @@ img:hover{
 }
 .menu ul li a{
   text-decoration: none;
-  color: black;
+  background: linear-gradient(90deg, rgba(220,242,242,1) 5%, rgba(134,223,217,1) 41%, rgba(89,238,211,1) 71%, rgba(0,249,244,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: 17px;
   padding: 7px 5px;
   border-radius: 3px;
   text-transform: uppercase;
 }
 
-a:hover,a.active{
-  background: blue;
-  color: #0082e6;
+.menu ul li a:hover,a.active{
+  background:linear-gradient(90deg, rgba(39,46,46,1) 5%, rgba(75,87,124,1) 41%, rgba(91,76,181,1) 71%, rgba(128,86,245,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* menu end */
+
 /* nav end */
 
 
@@ -166,17 +172,8 @@ a:hover,a.active{
   border-radius: 1%;
 }
 
-.page2 .bottom{
-  height:100vh;
-  width:100%;
-  background-color: aqua;
-  background:url('./img/underwater.webp');
-}
-
-.page2 .bottom .fish{
-  width:10%;
-  left:80%;
-  transform:translate(0%,-20%);
+.page2 .knowmore{
+  text-align: center;
 }
 
 
