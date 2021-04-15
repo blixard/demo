@@ -89,8 +89,6 @@ img:hover{
 /* page 1 */
 
 .page1{
-  margin: 2px;
-  padding: 2px;
   height: 100vh;
   display:flex;
   flex-wrap:wrap;
