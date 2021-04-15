@@ -64,7 +64,7 @@ animatePage2 = ()=>{
         scrollTrigger:{
             duration:2,
             trigger:".page2",
-            markers:true,
+            markers:false,
             start:"top",
             end:"+=1000",
             scrub:0.8,
@@ -98,7 +98,7 @@ animatePage3 = ()=>{
         scrollTrigger:{
             duration:2,
             trigger:"#bottom2",
-            markers:true,
+            markers:false,
             start:"top",
             end:"+=3000",
             scrub:1,
