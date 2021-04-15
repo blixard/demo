@@ -78,7 +78,7 @@ animatePage1 = ()=>{
             trigger:"#bottom1",
             markers:true,
             start:"top",
-            end:"+=2000",
+            end:"+=3000",
             scrub:1
         },
     })

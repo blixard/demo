@@ -6,7 +6,7 @@
 
 body{
   margin:0px;
-  padding:1px;
+  padding:0px;
 }
 
 img{
@@ -27,8 +27,18 @@ img:hover{
 .key{
   z-index: 2;
   position:fixed;
-  top:95%;
+  top:92%;
   right:1%;
+  padding:2px;
+  margin:2px;
+}
+.key button{
+  width:40px;
+  height:40px;
+  margin:2px;
+  padding:2px;
+  background:cyan;
+  border-radius: 50%;
 }
 
 /* menu */
@@ -43,9 +53,6 @@ img:hover{
   transition:all .5s;
 }
 
-
-
-
 .menu ul{
   display:flex;
   flex-wrap: wrap;
@@ -56,6 +63,7 @@ img:hover{
   margin: 0 5px;
 }
 .menu ul li a{
+  text-decoration: none;
   color: black;
   font-size: 17px;
   padding: 7px 5px;
@@ -64,7 +72,7 @@ img:hover{
 }
 
 a:hover,a.active{
-  background: none;
+  background: blue;
   color: #0082e6;
 }
 
@@ -202,5 +210,8 @@ a:hover,a.active{
   .menu{
     top:70%;
     height:30vh;
+  }
+  .page2 .main .view{
+    font-size: 12px;
   }
 }
