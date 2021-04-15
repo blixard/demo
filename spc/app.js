@@ -122,7 +122,6 @@ animatePage3 = ()=>{
             start:"top",
             end:"+=3000",
             scrub:1,
-            pin: true,
         },
     })
     tl.from("#fish",{
