@@ -72,8 +72,21 @@ animatePage1 = ()=>{
         opacity:0
     },"-=1")
 
-
-    // auto animate on scro
+    var tl2 = gsap.timeline({
+        scrollTrigger:{
+            duration:2,
+            trigger:"#bottom1",
+            markers:true,
+            start:"top",
+            end:"+=2000",
+            scrub:1
+        },
+    })
+    tl2.to("#astro",{
+        yPercent:100,
+        rotate:360,
+        xPercent:-10
+    })
 }
 
 animatePage2 = ()=>{
