@@ -12,17 +12,7 @@ window.addEventListener("DOMContentLoaded", (e)=>{
 })
 
 animatePage1 = ()=>{
-    var tl = gsap.timeline({
-        scrollTrigger:{
-            duration:2,
-            trigger:".page1",
-            markers:true,
-            start:"top",
-            end:"+=2000",
-            scrub:1,
-            pin: true,
-        },
-    })
+    var tl = gsap.timeline()
     tl.from(".img1",{
         xPercent:-100
     })
@@ -114,6 +104,9 @@ animatePage2 = ()=>{
         yPercent:-100,
         xPercent:-200
     },"-=2")
+    tl.from("#p2main",{
+        xPercent:-100
+    })
     tl.from(".p2img3",{
         xPercent:-300
     })
@@ -158,7 +151,7 @@ animatePage3 = ()=>{
     })
 }
 
-var flag = false;
+var flag = true;
 function fun(){
     console.log("working button")
     if(flag == false){

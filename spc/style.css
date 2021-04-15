@@ -49,7 +49,7 @@ img:hover{
   width:100%;
   height:10vh;
   background-color: yellow;
-  left:-100%;
+  left:0%;
   transition:all .5s;
 }
 
@@ -89,7 +89,7 @@ a:hover,a.active{
 }
 
 .page1 .content{
-  position:fixed;
+  position:absolute;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
@@ -191,9 +191,6 @@ a:hover,a.active{
   .menu{
     top:85%;
     height:15vh;
-  }
-  .page1 .bottom{
-    background:url('./img/spacesmall.webp');
   }
 }
 
