@@ -61,22 +61,6 @@ animatePage1 = ()=>{
     tl.from("#bottom1",{
         opacity:0
     },"-=1")
-
-    var tl2 = gsap.timeline({
-        scrollTrigger:{
-            duration:2,
-            trigger:"#bottom1",
-            markers:true,
-            start:"top",
-            end:"+=3000",
-            scrub:1
-        },
-    })
-    tl2.to("#astro",{
-        yPercent:100,
-        rotate:360,
-        xPercent:-10
-    })
 }
 
 animatePage2 = ()=>{
@@ -86,9 +70,7 @@ animatePage2 = ()=>{
             trigger:".page2",
             markers:true,
             start:"top",
-            end:"+=3000",
-            scrub:1,
-            pin: true,
+            pin:true
         },
     })
     tl.from("#p2content",{
@@ -96,9 +78,6 @@ animatePage2 = ()=>{
     })
     tl.from(".p2img1",{
         xPercent:-100
-    })
-    tl.from(".camfocus1",{
-        opacity:0
     })
     tl.from(".p2img2",{
         yPercent:-100,
@@ -114,9 +93,6 @@ animatePage2 = ()=>{
         yPercent:-100,
         xPercent:-400
     })
-    tl.from("#bottom2",{
-        opacity:0
-    }) 
 }
 
 animatePage3 = ()=>{
