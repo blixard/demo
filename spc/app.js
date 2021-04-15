@@ -143,9 +143,6 @@ animatePage3 = ()=>{
             pin: true,
         },
     })
-    tl2.to("#bottom2",{
-        opacity:0
-    })
 }
 
 var flag = false;
