@@ -3,6 +3,7 @@
 window.addEventListener("DOMContentLoaded", (e)=>{
     animatePage1()
     animatePage2()
+    animatePage3()
     var x = document.querySelectorAll(".list a")
     x[0].onClick = function(){
         console.log("hello")
@@ -26,22 +27,22 @@ animatePage1 = ()=>{
         xPercent:-100
     })
     tl.from(".img2",{
+        opacity:0,
         yPercent:-100,
         xPercent:-200
     })
     tl.from(".img3",{
+        opacity:0,
         xPercent:-300
     })
     tl.from(".img4",{
-        yPercent:-100,
-        xPercent:-400
+        yPercent:-250
     })
     tl.from(".img5",{
-        xPercent:-100
+        opacity:0
     })
     tl.from(".img6",{
-        yPercent:-100,
-        xPercent:-200
+        yPercent:-350
     })
     tl.from(".img7",{
         xPercent:-300
@@ -67,8 +68,8 @@ animatePage1 = ()=>{
         yPercent:-100,
         xPercent:-400
     })
-    tl.from(".bottom",{
-        xPercent:-100
+    tl.from("#bottom1",{
+        opacity:0
     },"-=1")
 
 
@@ -93,10 +94,13 @@ animatePage2 = ()=>{
     tl.from(".p2img1",{
         xPercent:-100
     })
+    tl.from(".camfocus1",{
+        opacity:0
+    })
     tl.from(".p2img2",{
         yPercent:-100,
         xPercent:-200
-    },"-=1")
+    },"-=2")
     tl.from(".p2img3",{
         xPercent:-300
     })
@@ -104,13 +108,45 @@ animatePage2 = ()=>{
         yPercent:-100,
         xPercent:-400
     })
-    tl.to(".content",{
-        xPercent:-2200
-    })
-    tl.from(".content2",{
-        xPercent:-2500
+    tl.from("#bottom2",{
+        opacity:0
     }) 
+}
 
+animatePage3 = ()=>{
+    var tl = gsap.timeline({
+        scrollTrigger:{
+            duration:2,
+            trigger:"#bottom2",
+            markers:true,
+            start:"top",
+            end:"+=3000",
+            scrub:1,
+            pin: true,
+        },
+    })
+    tl.from("#fish",{
+        opacity:0
+    })
+    tl.to("#fish",{
+        xPercent:-500,
+        yPercent:300
+    })
+
+    var tl2 = gsap.timeline({
+        scrollTrigger:{
+            duration:2,
+            trigger:".page3",
+            markers:true,
+            start:"top",
+            end:"+=3000",
+            scrub:1,
+            pin: true,
+        },
+    })
+    tl2.to("#bottom2",{
+        opacity:0
+    })
 }
 
 var flag = false;
