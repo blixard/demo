@@ -116,15 +116,6 @@ a:hover,a.active{
   transform:translate(-50%,-50%);
 }
 
-.page1 .bottom{
-  height: 100%;
-  width:100%;
-  background:url('./img/spacebig.webp')no-repeat;
-  background-position: center;
-  background-size: 100%;
-  text-align: center;
-}
-
 /* page 1 ended */
 
 /* page 2 */
