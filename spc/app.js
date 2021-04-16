@@ -75,20 +75,15 @@ animatePage2 = ()=>{
 animatePage3 = ()=>{
     var tl = gsap.timeline({
         scrollTrigger:{
-            duration:2,
-            trigger:"#bottom2",
+            duration:1,
+            trigger:".page3",
             markers:false,
-            start:"top",
-            end:"+=3000",
+            start:"top bottom",
             scrub:1,
         },
     })
-    tl.from("#fish",{
+    tl.from(".container",{
         opacity:0
-    })
-    tl.to("#fish",{
-        xPercent:-500,
-        yPercent:300
     })
 }
 
