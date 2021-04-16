@@ -320,6 +320,21 @@ img:hover{
   }
 }
 
+@media(max-height:450px) {
+  .menu ul{
+    margin-top:0px;  
+  }
+  .page2 .main{
+    display: none;
+  }
+  .page3 .container .main {
+    display: none;
+    line-height:40px;
+  }
+}
+
+
+
 @media(max-width:424px) {
   .menu{
     top:0%;
