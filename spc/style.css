@@ -132,7 +132,7 @@ img:hover{
 /* page 2 */
 
 .page2{
-  background-color:black;
+  background-color:#D8A7B1;
   height: 100vh;
 }
 
@@ -203,10 +203,6 @@ img:hover{
 }
 
 @media(max-width:370px) {
-  .menu{
-    top:70%;
-    height:30vh;
-  }
   .page2 .main .view{
     font-size: 12px;
   }
