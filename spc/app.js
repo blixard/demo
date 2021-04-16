@@ -82,9 +82,12 @@ animatePage3 = ()=>{
             scrub:1,
         },
     })
-    tl.from(".container",{
+    tl.from("#formc",{
         opacity:0
-    })
+    },"-=1")
+    tl.from("#p3main",{
+        opacity:0
+    },"-=1")
 }
 
 var flag = false;
