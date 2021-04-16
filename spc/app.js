@@ -4,11 +4,6 @@ window.addEventListener("DOMContentLoaded", (e)=>{
     animatePage1()
     animatePage2()
     animatePage3()
-    var x = document.querySelectorAll(".list a")
-    x[0].onClick = function(){
-        console.log("hello")
-    }
-    console.log(x[0]);
 })
 
 animatePage1 = ()=>{
