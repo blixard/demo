@@ -69,7 +69,7 @@ animatePage2 = ()=>{
     },"-=1")
     tl.from("#p2main",{
         opacity:0
-    },"-=1")
+    },"-=0.8")
 }
 
 animatePage3 = ()=>{
@@ -79,7 +79,7 @@ animatePage3 = ()=>{
             trigger:".page3",
             markers:false,
             start:"top bottom",
-            scrub:0.5,
+            scrub:true,
         },
     })
     tl.from("#formc",{
