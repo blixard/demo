@@ -29,8 +29,8 @@ img:hover{
 .key{
   z-index: 2;
   position:fixed;
-  top:92%;
-  right:1%;
+  top:5%;
+  right:5%;
   padding:2px;
   margin:2px;
 }
@@ -47,10 +47,11 @@ img:hover{
 .menu{
   position:fixed;
   z-index: 1;
-  top:90%;
-  width:100%;
-  height:10vh;
-  background:linear-gradient(90deg, rgba(23,23,23,1) 5%, rgba(166,167,109,1) 68%, rgba(198,176,29,1) 83%, rgba(241,177,26,1) 100%);
+  top:0%;
+  width:35%;
+  height:100vh;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  background-color: rgba(255,255,255,.15);
   left:-100%;
   transition:all .5s;
 }
@@ -196,8 +197,8 @@ img:hover{
 
 @media(max-width:424px) {
   .menu{
-    top:85%;
-    height:15vh;
+    top:0%;
+    height:100 vh;
   }
 }
 
