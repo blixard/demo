@@ -271,6 +271,15 @@ img:hover{
 
 /* responsive */
 
+
+@media(max-width:850px) {
+  .page3 .formc{
+    margin-left:2px;
+    width: 100%;
+  }
+}
+
+
 @media(max-width:600px) {
   img{
     width:50%;
