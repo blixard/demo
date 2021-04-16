@@ -59,8 +59,9 @@ animatePage2 = ()=>{
             duration:2,
             trigger:".page2",
             markers:false,
-            start:"top",
+            start:"top bottom",
             end:"+=1000",
+            scrub:"1"
         },
     })
     tl.from("#p2head",{
