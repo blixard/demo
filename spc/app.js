@@ -56,7 +56,6 @@ animatePage1 = ()=>{
     tl.from(".img12",{
         yPercent:-40
     })
-
 }
 
 animatePage2 = ()=>{
