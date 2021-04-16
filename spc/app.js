@@ -79,7 +79,7 @@ animatePage3 = ()=>{
             trigger:".page3",
             markers:false,
             start:"top bottom",
-            scrub:1,
+            scrub:0.5,
         },
     })
     tl.from("#formc",{
