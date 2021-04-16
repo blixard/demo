@@ -67,8 +67,6 @@ animatePage2 = ()=>{
             markers:false,
             start:"top",
             end:"+=1000",
-            scrub:0.8,
-            pin:true
         },
     })
     tl.from("#p2content",{

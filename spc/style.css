@@ -14,10 +14,12 @@ img{
   padding:0.5px;
   width:25%;
   opacity:0.8;
+  filter:blur(1px);
 }
 
 img:hover{
   opacity:1;
+  filter:blur(0px);
 }
 
 
@@ -121,6 +123,7 @@ img:hover{
   top: 50%;
   left: 50%;
   transform:translate(-49%,-30%);
+  filter: blur(0px);
 }
 
 /* page 1 ended */
@@ -139,7 +142,7 @@ img:hover{
 }
 
 .page2 .head .content{
-  position:fixed;
+  position:relative;
   top: 5%;
   left:50%;
   transform:translate(-50%,-50%);
@@ -155,6 +158,7 @@ img:hover{
 
 .page2 .head .content .title{
   font-size: 50px;
+  color:wheat;
 
 }
 
