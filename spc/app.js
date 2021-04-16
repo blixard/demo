@@ -112,7 +112,6 @@ animatePage3 = ()=>{
 
 var flag = false;
 function fun(){
-    console.log("working button")
     if(flag == false){
         document.querySelector(".menu").style.left=0;
         flag = true;
