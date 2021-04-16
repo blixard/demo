@@ -80,7 +80,6 @@ animatePage3 = ()=>{
             trigger:".page3",
             markers:false,
             start:"top bottom",
-            scrub:true,
         },
     })
     tl.from("#formc",{
@@ -101,10 +100,10 @@ animatePage4 = ()=>{
     })
     tl.from("#p4head",{
         opacity:0
-    },"-=0.9")
+    },"-=0.4")
     tl.from(".teamview",{
         opacity:0
-    },"-=1")
+    },"-=0.7")
 }
 
 var flag = false;
