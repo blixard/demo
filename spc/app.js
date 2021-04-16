@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", (e)=>{
     animatePage1()
     animatePage2()
     animatePage3()
+    animatePage4()
 })
 
 animatePage1 = ()=>{
@@ -86,6 +87,22 @@ animatePage3 = ()=>{
         opacity:0
     },"-=1")
     tl.from("#p3main",{
+        opacity:0
+    },"-=1")
+}
+
+animatePage4 = ()=>{
+    var tl = gsap.timeline({
+        scrollTrigger:{
+            trigger:".page4",
+            start:"top bottom",
+            scrub:true
+        }
+    })
+    tl.from("#p4head",{
+        opacity:0
+    },"-=0.9")
+    tl.from(".teamview",{
         opacity:0
     },"-=1")
 }
