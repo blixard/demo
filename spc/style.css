@@ -14,7 +14,7 @@ img{
   padding:0.5px;
   width:25%;
   opacity:0.8;
-  filter:blur(1px);
+  filter:blur(10px);
 }
 
 img:hover{
@@ -94,7 +94,7 @@ img:hover{
   height: 100vh;
   display:flex;
   flex-wrap:wrap;
-  background-color: black;
+  background-color:#D8A7B1;
 }
 
 .page1 .content{
