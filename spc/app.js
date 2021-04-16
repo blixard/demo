@@ -100,10 +100,10 @@ animatePage4 = ()=>{
     })
     tl.from("#p4head",{
         opacity:0
-    },"-=0.4")
+    })
     tl.from(".teamview",{
         opacity:0
-    },"-=0.7")
+    },"-=0.6")
 }
 
 var flag = false;
