@@ -199,6 +199,74 @@ img:hover{
   background-color:rgba(255, 255, 255, .5);
 }
 
+/* page 2 ends */
+
+/* page 3 starts*/
+.page3{
+  height: 100vh;
+}
+
+.page3 .head{
+  padding: 50px;
+  text-align: center;
+  font-size:50px;
+}
+
+.page3 .formc{
+  margin-left: 50px;
+  padding-top: 80px;
+  padding-left: 20px;
+  width:40%;
+  height:100%;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  line-height: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+}
+
+.page3 .formc input{
+  margin: 5px;
+  padding: 2px;
+  height: 25px;
+  width: 80%;
+  box-shadow: 0 0 1rem 0 rgba(10, 10, 10, .1); 
+  border: none;
+  border-radius: 2px;
+}
+
+.page3 .formc label{
+  margin-left: 10px;
+}
+
+.page3 .formc #extra{
+  box-shadow: 0 0 1rem 0 rgba(10, 10, 10, .1); 
+  border: none;
+  border-radius: 2px;
+  width: 80%;
+  height: 100px;
+}
+
+.page3 .formc button{
+  margin-top: 20px;
+  width: 80%;
+  height: 60px;
+  border:none;
+  background: rgba(24, 165, 87, 0.2);
+  border-radius: 2px;
+  box-shadow: 0 0 1rem 0 rgba(10, 10, 10, 0.1); 
+  outline: none;
+}
+
+.page3 .formc button:hover{
+  background: rgba(24, 165, 87, 0.8);
+  border-radius: 2px;
+  box-shadow: 0 0 1rem 0 rgba(10, 10, 10, 0.2); 
+}
+
+/* page 3 ends*/
+
 
 
 /* responsive */
