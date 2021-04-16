@@ -68,25 +68,11 @@ animatePage2 = ()=>{
             end:"+=1000",
         },
     })
-    tl.from("#p2content",{
+    tl.from("#p2head",{
         opacity:0
-    },"-=1")
-    tl.from(".p2img1",{
-        xPercent:-100
-    },"-=1.5")
-    tl.from(".p2img2",{
-        yPercent:-100,
-        xPercent:-200
     },"-=1")
     tl.from("#p2main",{
         opacity:0
-    },"-=1")
-    tl.from(".p2img3",{
-        xPercent:-300
-    },"-=1")
-    tl.from(".p2img4",{
-        yPercent:-100,
-        xPercent:-400
     },"-=1")
 }
 

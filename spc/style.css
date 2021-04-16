@@ -161,34 +161,9 @@ img:hover{
 }
 
 .page2 .head{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.page2 .head .content{
-  position:relative;
-  top: 5%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-
-.page2 .head .content2{
-  position:fixed;
-  top: 50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  background-color: yellow;
-}
-
-.page2 .head .content .title{
-  font-size: 50px;
-  color:wheat;
-
-}
-
-.page2 .head .content .about {
-  font-size:30px;
+  padding: 50px;
+  text-align: center;
+  font-size:50px;
 }
 
 .page2 .main{
