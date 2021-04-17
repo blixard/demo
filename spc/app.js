@@ -85,7 +85,7 @@ animatePage3 = ()=>{
     })
     tl.from("#formc",{
         opacity:0
-    })
+    },"-=1")
     tl.from("#p3main",{
         opacity:0
     })
