@@ -80,12 +80,11 @@ animatePage3 = ()=>{
             trigger:".page3",
             markers:false,
             start:"top bottom",
-            scrub:true
         },
     })
     tl.from("#formc",{
         opacity:0
-    },"-=1")
+    })
     tl.from("#p3main",{
         opacity:0
     })
