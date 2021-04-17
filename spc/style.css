@@ -276,7 +276,7 @@ body{
   padding-top: 80px;
   padding-left: 20px;
   width:40%;
-  height:90vh;
+  height:100vh;
   display: flex;
   flex-flow: column;
   flex-direction: column;
@@ -536,7 +536,7 @@ body{
     height:100 vh;
   }
   .page2{
-    background: url('./img/mountatinsnow2.webp')no-repeat;
+    background: url('./img/mountainbig.webp')no-repeat;
     background-clip: content-box;
     background-color:white;
   }

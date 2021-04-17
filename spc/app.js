@@ -80,14 +80,15 @@ animatePage3 = ()=>{
             trigger:".page3",
             markers:false,
             start:"top bottom",
+            scrub:true
         },
     })
     tl.from("#formc",{
         opacity:0
-    },"-=0.5")
+    })
     tl.from("#p3main",{
         opacity:0
-    },"-=0.8")
+    })
 }
 
 animatePage4 = ()=>{
@@ -103,7 +104,7 @@ animatePage4 = ()=>{
     })
     tl.from(".teamview",{
         opacity:0
-    },"-=0.6")
+    },"-=0.4")
 }
 
 var flag = false;
